@@ -1,0 +1,23 @@
+/* .sidebar {
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+} */
+
+.sidebar-options {
+    width: fit-content;
+   display: flex;
+   justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.sidebar-options:hover {
+    transform: scale(1.1);
+}
+
+.sidebar-options img  {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}

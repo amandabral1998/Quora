@@ -1,0 +1,93 @@
+.header-main{
+  background: white;
+  border-radius: 10px;
+}
+
+.header-input {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2px 2px 2px 5px;
+    width: fit-content;
+}
+.name  , .icons{
+    cursor: pointer;
+}
+
+.icons:hover{
+color: rgb(241, 63, 63);
+}
+
+.name:hover {
+opacity: 0.8;
+}
+
+
+.search-field {
+    border: none;
+}
+
+.search-field:focus {
+   outline: none;
+}
+
+.avatar-span {
+    display: flex;
+    justify-content: center;
+    border: 0.2px solid;
+    border-radius: 50%;
+    
+}
+
+/* .avatar-span  svg{
+    color: black;
+} */
+
+
+.cancel {
+  width: 50%;
+}
+
+.addQuestion{
+  width: 70%;
+}
+
+.modal-field input:focus{
+  outline: none;
+}
+
+.link-image {
+object-fit: contain;
+  height: 40vh;
+}
+
+/* Default styles for the button */
+
+  /* Media query for screens below 992px */
+  @media (max-width: 992px) {
+    .btn {
+      font-size: 16px !important; /* Adjust the font size for smaller screens */
+      padding: 3px !important; /* Adjust the padding for smaller screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .btn {
+      font-size: 14px !important; /* Adjust the font size for smaller screens */
+      padding: 1.5px !important; /* Adjust the padding for smaller screens */
+      min-width: fit-content;
+    }
+
+    .cancel {
+      width: 40%;
+    }
+
+    .addQuestion{
+      width: 60%;
+    }
+  }
+  
+
+
+
+
+ 

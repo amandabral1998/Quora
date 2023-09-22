@@ -1,0 +1,10 @@
+.widget {
+    border: 1px solid lightgray;
+    flex: 0.15;
+    height: fit-content;
+    line-height:1.1 ;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    background: white;
+}

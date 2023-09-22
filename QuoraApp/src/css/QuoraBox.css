@@ -1,0 +1,29 @@
+.quorabox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1.5px solid lightgray;
+  max-width: 800px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.quorabox:hover{
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.quorabox-info {
+    display: flex;
+    align-items: center;
+}
+
+.quorabox-write {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.quorabox-write > h5 {
+    color:  rgb(129 , 129 , 129);
+    font-weight: 400;
+}

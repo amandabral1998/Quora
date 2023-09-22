@@ -1,0 +1,12 @@
+.widget-contents {
+    margin-top: -5px;
+}
+
+.widget-content svg {
+    cursor: pointer;
+}
+
+.widget-content > .widget-title > p {
+    color: rgb(125, 125, 125);
+    font-size: 12px;
+}

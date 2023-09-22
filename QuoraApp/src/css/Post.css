@@ -1,0 +1,23 @@
+.post {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.post , svg {
+    cursor: pointer;
+}
+
+.post-body , .postBtn-answer {
+padding: 2px;
+}
+
+.postfooter-action  {
+    background-color: lightslategray;
+    opacity: 0.8;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+

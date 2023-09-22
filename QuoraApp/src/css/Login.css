@@ -1,0 +1,26 @@
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.quora-logo {
+    max-width: 250px; /* Adjust the size as needed */
+    border-radius: 10px;
+}
+
+.login-button {
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
